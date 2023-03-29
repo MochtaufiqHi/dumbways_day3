@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  background-color: rgb(220, 232, 243);
+}
+
+/* Navbar */
+
+nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  margin-left: 185px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+}
+
+.left {
+  width: calc(100% - 540px);
+  margin-bottom: 0;
+}
+
+.right {
+  margin-bottom: 0;
+}
+
+.right a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 8px 28px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* content-index */
+.content-index {
+  display: flex;
+  width: 1000px;
+  margin: 12px auto;
+  justify-content: space-between;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgb(168, 184, 219);
+  margin-top: 80px;
+}
+
+.bio {
+  text-align: justify;
+  width: 600px;
+  margin: 40px;
+}
+
+.btn-cn {
+  float: none;
+}
+
+.btn-cv {
+  display: inline; 
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.bio ul {
+  list-style: none;
+  margin-top: 50px;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bio ul li {
+  height: 40px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.bio ul li a {
+  display: flex;
+  background-color: black;
+  padding: 10px 10px;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  align-items: center;
+}
+
+.card {
+  margin: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgb(168, 184, 219);
+}
+
+.card-hero {
+  height: 320px;
+  object-fit: scale-down;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+}
+
+.name-author {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: -14px;
+}
+
+.name-stack {
+  opacity: 0.8;
+}
+
+/* Form content */
+h2 {
+  text-align: center;
+}
+
+div {
+  width: 320px;
+  margin-bottom: 12px;
+}
+
+form {
+  width: 320px;
+  margin: 20px auto;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 6px;
+  box-shadow: 2px 2px 8px rgb(87, 84, 84);
+  border: none;
+  border-radius: 4px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  border: none;
+  padding: 8px 28px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  float: right;
+}
